@@ -96,7 +96,7 @@ console.log('the first word of string is ', quoteStr.substring(0,firstblank));
 
 ////* Exercise 07
 let Date= '25-05-2017';
-console.log('the date is',Date.replace('-','/'));
+console.log('the date is',Date.replaceAll('-','/'));
 
 ////* Exercise 08
 const string8= 'How are you today';
@@ -109,4 +109,5 @@ console.log(typeof typeof 1); //string t
 ////* Exercise 10
 const filename= 'solution.js';
 const filetype= filename.substring(filename.indexOf('.')+1);
-console.log(filetype)
+console.log(filetype);
+console.log(filename.slice(filename.indexOf('.')));
